@@ -4,7 +4,7 @@ from PIL import Image
 import numpy as np
 import keras
 
-img_path = ""
+img_path = "sample.png"
 labels = ['T-shirt/Top','Trouser','Pullover','Dress','Coat','Sandal','Shirt','Sneaker','Bag','Ankle Boot']
 img= Image.open(img_path).convert('L')
 np_img = np.array(img)
